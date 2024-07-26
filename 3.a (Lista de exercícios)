@@ -3,10 +3,10 @@ void main()
 {
     int a, b, c;
 
-    printf("Escreva o valor da variável a: ");
+    printf("Escreva o valor da variavel a: ");
     scanf("%d", &a);
 
-    printf("Escreva o valor da variável b: ");
+    printf("Escreva o valor da variavel b: ");
     scanf("%d", &b);
 
     if(a>b)
