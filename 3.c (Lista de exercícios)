@@ -19,11 +19,11 @@ void main()
 
     if(md>5)
     {
-        printf("Aprovado(a)");
+        printf("Aprovado(a), media: %f", md);
     }
 
     else
     {
-        printf("Reprovado(a)");
+        printf("Reprovado(a), media: %f", md);
     }
 }
