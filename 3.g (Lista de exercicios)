@@ -2,17 +2,34 @@
 void main()
 
 {
-  int A, B, C, D;
+    int a, b, c, d;
 
-  printf("Informe o valor de A: "):
-  scanf("%d", &A);
+    printf ("insira o valor de A\n" );
+    scanf("%d", &a);
 
-  printf("Informe o valor de B: "):
-  scanf("%d", &B);
+     printf ("insira o valor de B\n");
+    scanf("%d", &b);
 
-  printf("Informe o valor de C: "):
-  scanf("%d", &C);
+     printf ("insira o valor de C\n");
+    scanf("%d", &c);
 
-  printf("Informe o valor de D: "):
-  scanf("%d", &D);
+     printf ("insira o valor de D\n");
+    scanf("%d", &d);
 
+    if (((a % 2) && (a % 3))==0)
+    {
+        printf("%d\n",a);
+    }
+     if (((b % 2) && (b % 3))==0)
+    {
+        printf("%d\n",b);
+    }
+     if (((c % 2) && (c % 3))==0)
+    {
+        printf("%d\n",c);
+    }
+     if (((d % 2) && (d % 3))==0)
+    {
+        printf("%d\n",d);
+    }
+}
