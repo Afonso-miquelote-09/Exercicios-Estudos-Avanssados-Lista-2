@@ -3,7 +3,7 @@
 {
 int a, b, c, aux;
 
-prinf("Digite tres números: ");
+printf("Digite tres números: ");
 scanf("%d %d %d", &a, &b, &c);
 
 if (a>b)
