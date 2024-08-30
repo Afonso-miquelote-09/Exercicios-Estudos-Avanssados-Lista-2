@@ -4,32 +4,32 @@ void main()
 {
     int a, b, c, d;
 
-    printf ("insira o valor de A\n" );
+    printf ("\ninsira o valor de A: " );
     scanf("%d", &a);
 
-     printf ("insira o valor de B\n");
+    printf ("\ninsira o valor de B: ");
     scanf("%d", &b);
 
-     printf ("insira o valor de C\n");
+    printf ("\ninsira o valor de C: ");
     scanf("%d", &c);
 
-     printf ("insira o valor de D\n");
+    printf ("\ninsira o valor de D: ");
     scanf("%d", &d);
 
     if (((a % 2) || (a % 3))==0)
     {
         printf("%d\n",a);
     }
-     if (((b % 2) || (b % 3))==0)
+    if (((b % 2) || (b % 3))==0)
     {
         printf("%d\n",b);
     }
-     if (((c % 2) || (c % 3))==0)
+    if (((c % 2) || (c % 3))==0)
     {
         printf("%d\n",c);
     }
-     if (((d % 2) || (d % 3))==0)
+    if (((d % 2) || (d % 3))==0)
     {
-        printf("%d\n",d);
+        printf("%d",d);
     }
 }
