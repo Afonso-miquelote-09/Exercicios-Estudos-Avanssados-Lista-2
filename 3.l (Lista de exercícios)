@@ -2,13 +2,13 @@
 void main()
 
 {
-  int abecedario;
+    int abecedario;
 
-  printf("Digite qualquer numero que voce quiser: ");
-  scanf("%d", &abecedario);
+    printf("Digite qualquer numero que voce quiser: ");
+    scanf("%d", &abecedario);
 
-  if (!(abecedario<3))
-  {
-  printf("%d", abecedario);
-  }
-  }
+    if (!(abecedario>3))
+    {
+        printf("%d", abecedario);
+    }
+}
